@@ -34,9 +34,9 @@ type ButtonProps = ButtonAsButtonProps | ButtonAsLinkProps | ButtonAsAnchorProps
 function classesForVariant(variant: ButtonVariant) {
   switch (variant) {
     case "secondary":
-      return "bg-white text-ink-950 ring-1 ring-inset ring-ink-950/10 hover:bg-sand-50"
+      return "bg-white text-ink-950 ring-1 ring-inset ring-ink-950/[0.08] hover:bg-sand-50"
     case "ghost":
-      return "text-ink-950/80 hover:bg-ink-950/5"
+      return "text-ink-950/70 hover:bg-ink-950/[0.05] shadow-none hover:shadow-none"
     case "primary":
     default:
       return "bg-gradient-to-br from-amber-400 via-yellow-500 to-amber-500 text-ink-950 hover:from-amber-500 hover:via-yellow-600 hover:to-amber-600"
@@ -46,7 +46,7 @@ function classesForVariant(variant: ButtonVariant) {
 export default function Button(props: ButtonProps) {
   const { variant = "primary", className, children, ...rest } = props as ButtonProps
   const base =
-    "inline-flex items-center justify-center rounded-xl px-4 py-2 font-ui text-sm font-semibold no-underline shadow-soft transition will-change-transform hover:-translate-y-0.5 hover:shadow-lift hover:no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-marigold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-sand-50"
+    "inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-ui text-sm font-semibold no-underline shadow-soft transition-all duration-200 will-change-transform hover:-translate-y-0.5 hover:shadow-lift hover:no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-marigold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-sand-50"
   const cls = `${base} ${classesForVariant(variant)} ${className ?? ""}`
 
   if ("to" in props && typeof props.to === "string") {

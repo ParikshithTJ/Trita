@@ -15,9 +15,9 @@ export default function Navbar({ siteTitle }: NavbarProps) {
     <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-6xl">
       <div className="flex items-center justify-between rounded-full border border-ink-950/10 bg-white/90 px-2 py-2 shadow-lift backdrop-blur-md transition-all hover:bg-white">
         <div className="flex items-center gap-2 pl-3">
-          <Link to="/" className="group flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-sand-100 shadow-soft transition group-hover:scale-105">
-              <Logo className="h-7 w-7" />
+          <Link to="/" className="group flex items-center gap-3">
+            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-sand-100 shadow-soft transition group-hover:scale-105">
+              <Logo className="h-10 w-10" />
             </span>
             <span className="font-display text-lg font-bold tracking-tight text-ink-950">
               {siteTitle}
