@@ -12,7 +12,7 @@ require("dotenv").config({ path: `.env.local` })
  */
 module.exports = {
   siteMetadata: {
-    title: `Trita`,
+    title: `Trita Infotainment`,
     description: `Reimagining Indian Culture Through Play, Learning, and Technology.`,
     author: `@trita`,
     siteUrl: `https://trita.example.com/`,

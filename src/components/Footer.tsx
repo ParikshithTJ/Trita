@@ -27,7 +27,7 @@ export default function Footer() {
 
             <div className="flex flex-col justify-between gap-6 border-b border-ink-950/[0.08] p-8 md:border-b-0 md:border-r">
               <div className="space-y-3">
-                <div className="font-display text-2xl font-bold text-ink-950">Trita</div>
+                <div className="font-display text-2xl font-bold text-ink-950">Trita Infotainment LLP</div>
                 <p className="font-body text-sm leading-relaxed text-ink-950/60">
                   Reimagining Indian culture through play, learning, and technology.
                 </p>
@@ -117,7 +117,7 @@ export default function Footer() {
 
           <div className="flex flex-col gap-2 border-t border-ink-950/[0.08] px-8 py-5 md:flex-row md:items-center md:justify-between">
             <span className="font-caption text-xs font-medium text-ink-950/40">
-              © {new Date().getFullYear()} Trita. All rights reserved.
+              © {new Date().getFullYear()} Trita Infotainment LLP. All rights reserved.
             </span>
             <span className="font-caption text-xs font-medium text-ink-950/40">
               Built by{" "}

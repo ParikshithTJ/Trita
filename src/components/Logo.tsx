@@ -7,7 +7,7 @@ type LogoProps = {
   title?: string
 }
 
-export default function Logo({ className, title = "Trita" }: LogoProps) {
+export default function Logo({ className, title = "Trita Infotainment LLP" }: LogoProps) {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "trita-logo.png" }) {
