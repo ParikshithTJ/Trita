@@ -10,6 +10,56 @@
       "permanent": true
     },
     {
+      "source": "/puzzles/deva-vaahana/00-brahma/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/00-brahma",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/01-sarasvati/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/01-sarasvati",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/02-vishnu/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/02-vishnu",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/03-lakshmi/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/03-lakshmi",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/04-shiva/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/04-shiva",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/05-parvati/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/05-parvati",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/06-ganesha/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/06-ganesha",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/07-kartikeya/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/07-kartikeya",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/08-indra/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/08-indra",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/09-yama/",
+      "destination": "https://rollthedice.in/pages/devata-vaahanas/09-yama",
+      "permanent": true
+    },
+    {
       "source": "/puzzles/deva-vaahana/:path*",
       "destination": "https://rollthedice.in/pages/puzzles/deva-vaahana/:path*",
       "permanent": true
