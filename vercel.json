@@ -2,6 +2,38 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/vaahanas",
+      "destination": "https://rollthedice.in/pages/vaahanas",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/deva-vaahana/:path*",
+      "destination": "https://rollthedice.in/pages/puzzles/deva-vaahana/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ekashloki-ramayana",
+      "destination": "https://rollthedice.in/pages/ekashloki-ramayana",
+      "permanent": true
+    },
+    {
+      "source": "/sri-rama-pattabhisheka",
+      "destination": "https://rollthedice.in/pages/sri-rama-pattabhisheka",
+      "permanent": true
+    },
+    {
+      "source": "/dashavatara",
+      "destination": "https://rollthedice.in/pages/dashavatara",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/:path*",
+      "destination": "https://rollthedice.in/pages/puzzles/dashavatara/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
