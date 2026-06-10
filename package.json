@@ -8,6 +8,7 @@
     "@babel/core": "^7.29.0",
     "@babel/helpers": "^7.28.6",
     "@mdx-js/react": "^2.3.0",
+    "@parcel/watcher": "^2.5.1",
     "dotenv": "^16.4.5",
     "fast-xml-parser": "^5.5.5",
     "framer-motion": "^12.38.0",
@@ -52,7 +53,7 @@
   ],
   "license": "0BSD",
   "engines": {
-    "node": "20.x"
+    "node": "20.x || 22.x"
   },
   "scripts": {
     "build": "gatsby build",
