@@ -73,6 +73,56 @@
       "source": "/dashavatara/",
       "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
       "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/matsya/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/vamana/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/varaha/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/narasimha/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/kurma/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/balarama/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/rama/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/parashurama/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/krishna/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
+    },
+    {
+      "source": "/puzzles/dashavatara/kalki/",
+      "destination": "https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice",
+      "permanent": true
     }
   ],
   "rewrites": [

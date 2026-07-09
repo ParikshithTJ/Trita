@@ -44,13 +44,68 @@ exports.createPages = async ({ actions }) => {
   // Dashavatara
   createRedirect({
     fromPath: `/dashavatara`,
-    toPath: `https://rollthedice.in/pages/dashavatara`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  // All individual Dashavatara URLs
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/matsya`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
     isPermanent: true,
     redirectInBrowser: true,
   })
   createRedirect({
-    fromPath: `/puzzles/dashavatara/*`,
-    toPath: `https://rollthedice.in/pages/puzzles/dashavatara/:splat`,
+    fromPath: `/puzzles/dashavatara/vamana`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/varaha`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/narasimha`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/kurma`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/balarama`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/rama`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/parashurama`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/krishna`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+  createRedirect({
+    fromPath: `/puzzles/dashavatara/kalki`,
+    toPath: `https://rollthedice.in/pages/10-avatars-of-lord-vishnu-stories-facts-roll-the-dice`,
     isPermanent: true,
     redirectInBrowser: true,
   })
